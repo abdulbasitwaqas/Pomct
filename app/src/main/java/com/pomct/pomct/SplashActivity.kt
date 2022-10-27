@@ -7,7 +7,7 @@ import android.os.Handler
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
     var handler: Handler? = null
     var runnable: Runnable? = null
     var img: ImageView? = null
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         handler = Handler()
         handler!!.postDelayed({
-            val dsp = Intent(this@MainActivity, LoginActivity::class.java)
+            val dsp = Intent(this@SplashActivity, LoginActivity::class.java)
             startActivity(dsp)
             finish()
         }, 4000)

@@ -112,4 +112,34 @@
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/acount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="8dp"
+        android:text="If you don't have an account?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/login_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_btn"
+        app:layout_constraintTop_toBottomOf="@+id/forget_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/acount_tv"
+        app:layout_constraintTop_toBottomOf="@+id/forget_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
